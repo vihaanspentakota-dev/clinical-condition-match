@@ -1,39 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Symptom Checker</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ClinicalMatch — Symptom Checker</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
-
 <body>
 
-    <main>
-        <h1>The Symptom Solver</h1>
+  <header>
+    <div class="header-inner">
+      <div class="logo">Clinical<span>Match</span></div>
+      <div class="header-tag">Educational symptom reference tool</div>
+    </div>
+  </header>
 
-        <p>Enter your symptoms:</p>
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="eyebrow">Symptom Analysis</div>
+        <h1>What might your<br/><em>symptoms suggest?</em></h1>
+        <p class="hero-sub">Enter your symptoms below and we'll match them against a database of common conditions. This tool is for educational reference only — always consult a qualified physician for medical advice.</p>
+      </div>
+    </section>
 
-        <input
-            type="text"
-            id="symptomInput"
-            placeholder="e.g. headache, cough, sore throat"
-        >
+    <section class="input-section">
+      <div class="input-inner">
+        <div class="input-card">
+          <label class="input-label">Describe your symptoms</label>
+          <div class="input-hint">Type one or more symptoms separated by commas (e.g. headache, fever, fatigue)</div>
+          <div class="input-row">
+            <input
+              type="text"
+              id="symptom-input"
+              placeholder="e.g. sore throat, fever, fatigue..."
+              autocomplete="off"
+            />
+            <button id="match-btn" onclick="matchSymptoms()">
+              <span id="btn-text">Analyze</span>
+              <span id="btn-loader" style="display:none;">...</span>
+            </button>
+          </div>
+          <div class="quick-symptoms">
+            <span class="quick-label">Common symptoms:</span>
+            <button class="chip" onclick="addSymptom('fever')">fever</button>
+            <button class="chip" onclick="addSymptom('headache')">headache</button>
+            <button class="chip" onclick="addSymptom('fatigue')">fatigue</button>
+            <button class="chip" onclick="addSymptom('cough')">cough</button>
+            <button class="chip" onclick="addSymptom('nausea')">nausea</button>
+            <button class="chip" onclick="addSymptom('chest pain')">chest pain</button>
+            <button class="chip" onclick="addSymptom('shortness of breath')">shortness of breath</button>
+            <button class="chip" onclick="addSymptom('sore throat')">sore throat</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <button id="checkButton">Check Symptoms</button>
+    <section class="results-section" id="results-section" style="display:none;">
+      <div class="results-inner">
+        <div class="results-header">
+          <div class="results-title">Possible Conditions</div>
+          <div class="results-sub" id="results-sub"></div>
+        </div>
+        <div class="results-grid" id="results-grid"></div>
+        <div class="disclaimer-box">
+          <div class="disclaimer-icon">⚕</div>
+          <div class="disclaimer-text">
+            <strong>Medical Disclaimer</strong> — ClinicalMatch is an educational reference tool built for learning purposes. It does not provide medical diagnoses. Always consult a licensed healthcare professional for any health concerns. In an emergency, call 911 immediately.
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="results">
-            <h2>Possible Conditions:</h2>
+    <section class="empty-state" id="empty-state">
+      <div class="empty-inner">
+        <div class="empty-icon">🩺</div>
+        <div class="empty-title">Enter symptoms above to get started</div>
+        <div class="empty-sub">We'll match your symptoms against dozens of common conditions and explain what might be causing them.</div>
+      </div>
+    </section>
 
-            <div id="resultsList"></div>
-        </section>
-    </main>
+    <section class="no-results" id="no-results" style="display:none;">
+      <div class="empty-inner">
+        <div class="empty-icon">🔍</div>
+        <div class="empty-title">No strong matches found</div>
+        <div class="empty-sub">Try different or additional symptoms. Remember this tool covers common conditions — always see a doctor for persistent or severe symptoms.</div>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>This is for education purposes only. This is a project and does not give a diagnosis.</p>
-    </footer>
+  <footer>
+    <div class="footer-inner">
+      <div>ClinicalMatch — Built by Vihaan Pentakota & Rayhan Garuthman for ThinkNeuro 2026</div>
+      <div class="footer-note">Educational use only · Not a substitute for professional medical advice</div>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
