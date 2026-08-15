@@ -1,0 +1,964 @@
+ {
+  "Common Cold": [
+    "cough",
+    "runny nose",
+    "sore throat",
+    "sneezing",
+    "congestion",
+    "fatigue"
+  ],
+  "Influenza": [
+    "fever",
+    "cough",
+    "fatigue",
+    "body aches",
+    "headache",
+    "chills",
+    "sore throat"
+  ],
+  "COVID-19": [
+    "fever",
+    "cough",
+    "fatigue",
+    "sore throat",
+    "headache",
+    "congestion",
+    "body aches"
+  ],
+  "Strep Throat": [
+    "sore throat",
+    "fever",
+    "headache",
+    "swollen lymph nodes",
+    "difficulty swallowing"
+  ],
+  "Acute Bronchitis": [
+    "cough",
+    "fatigue",
+    "chest discomfort",
+    "shortness of breath",
+    "mucus"
+  ],
+  "Asthma": [
+    "cough",
+    "wheezing",
+    "shortness of breath",
+    "chest tightness",
+    "difficulty breathing"
+  ],
+  "Pneumonia": [
+    "cough",
+    "fever",
+    "shortness of breath",
+    "chest pain",
+    "fatigue",
+    "chills"
+  ],
+  "Sinusitis": [
+    "congestion",
+    "facial pain",
+    "headache",
+    "runny nose",
+    "cough",
+    "pressure around head"
+  ],
+  "Allergic Rhinitis": [
+    "sneezing",
+    "runny nose",
+    "itchy eyes",
+    "watery eyes",
+    "congestion"
+  ],
+  "Sleep Apnea": [
+    "snoring",
+    "daytime sleepiness",
+    "fatigue",
+    "morning headache",
+    "difficulty concentrating"
+  ],
+  "Croup": [
+    "barking cough",
+    "hoarse voice",
+    "noisy breathing",
+    "fever"
+  ],
+  "Whooping Cough": [
+    "severe cough",
+    "runny nose",
+    "fatigue",
+    "vomiting"
+  ],
+  "RSV Infection": [
+    "cough",
+    "runny nose",
+    "congestion",
+    "fever",
+    "wheezing"
+  ],
+  "Acid Reflux (GERD)": [
+    "heartburn",
+    "sour taste",
+    "chest discomfort",
+    "cough",
+    "difficulty swallowing"
+  ],
+  "Gastritis": [
+    "stomach pain",
+    "nausea",
+    "vomiting",
+    "bloating",
+    "loss of appetite"
+  ],
+  "Stomach Ulcer": [
+    "stomach pain",
+    "nausea",
+    "bloating",
+    "heartburn",
+    "loss of appetite"
+  ],
+  "Irritable Bowel Syndrome": [
+    "stomach pain",
+    "bloating",
+    "diarrhea",
+    "constipation",
+    "cramps"
+  ],
+  "Celiac Disease": [
+    "diarrhea",
+    "bloating",
+    "stomach pain",
+    "fatigue",
+    "weight loss"
+  ],
+  "Lactose Intolerance": [
+    "stomach pain",
+    "bloating",
+    "diarrhea",
+    "gas",
+    "nausea"
+  ],
+  "Crohn's Disease": [
+    "stomach pain",
+    "diarrhea",
+    "fatigue",
+    "weight loss",
+    "fever"
+  ],
+  "Ulcerative Colitis": [
+    "diarrhea",
+    "stomach pain",
+    "rectal bleeding",
+    "fatigue",
+    "weight loss"
+  ],
+  "Constipation": [
+    "constipation",
+    "stomach pain",
+    "bloating",
+    "hard stool"
+  ],
+  "Hemorrhoids": [
+    "rectal pain",
+    "rectal bleeding",
+    "itching",
+    "swelling"
+  ],
+  "Gastroenteritis": [
+    "nausea",
+    "vomiting",
+    "diarrhea",
+    "stomach pain",
+    "fever",
+    "fatigue"
+  ],
+  "Food Poisoning": [
+    "nausea",
+    "vomiting",
+    "diarrhea",
+    "stomach pain",
+    "fever",
+    "cramps"
+  ],
+  "Gallstones": [
+    "upper abdominal pain",
+    "nausea",
+    "vomiting",
+    "back pain"
+  ],
+  "Appendicitis": [
+    "abdominal pain",
+    "nausea",
+    "vomiting",
+    "fever",
+    "loss of appetite"
+  ],
+  "Pancreatitis": [
+    "upper abdominal pain",
+    "nausea",
+    "vomiting",
+    "fever",
+    "back pain"
+  ],
+  "Diverticulitis": [
+    "lower abdominal pain",
+    "fever",
+    "nausea",
+    "constipation",
+    "diarrhea"
+  ],
+  "Migraine": [
+    "headache",
+    "nausea",
+    "sensitivity to light",
+    "sensitivity to sound",
+    "dizziness"
+  ],
+  "Tension Headache": [
+    "headache",
+    "neck pain",
+    "pressure around head",
+    "stress"
+  ],
+  "Cluster Headache": [
+    "severe headache",
+    "eye pain",
+    "watery eyes",
+    "runny nose"
+  ],
+  "Concussion": [
+    "headache",
+    "dizziness",
+    "nausea",
+    "confusion",
+    "difficulty concentrating",
+    "fatigue"
+  ],
+  "Vertigo": [
+    "dizziness",
+    "spinning sensation",
+    "balance problems",
+    "nausea"
+  ],
+  "Epilepsy": [
+    "seizures",
+    "confusion",
+    "loss of awareness",
+    "muscle jerking"
+  ],
+  "Bell's Palsy": [
+    "facial weakness",
+    "facial drooping",
+    "difficulty closing eye",
+    "facial numbness"
+  ],
+  "Multiple Sclerosis": [
+    "numbness",
+    "weakness",
+    "vision problems",
+    "balance problems",
+    "fatigue"
+  ],
+  "Parkinson's Disease": [
+    "tremor",
+    "stiffness",
+    "slow movement",
+    "balance problems"
+  ],
+  "Peripheral Neuropathy": [
+    "numbness",
+    "tingling",
+    "burning pain",
+    "weakness"
+  ],
+  "Fibromyalgia": [
+    "widespread pain",
+    "fatigue",
+    "sleep problems",
+    "headache",
+    "stiffness"
+  ],
+  "Chronic Fatigue Syndrome": [
+    "fatigue",
+    "sleep problems",
+    "difficulty concentrating",
+    "headache",
+    "body aches"
+  ],
+  "Insomnia": [
+    "difficulty sleeping",
+    "fatigue",
+    "difficulty concentrating",
+    "daytime sleepiness"
+  ],
+  "Restless Legs Syndrome": [
+    "restless legs",
+    "leg discomfort",
+    "difficulty sleeping",
+    "urge to move legs"
+  ],
+  "Anxiety": [
+    "excessive worry",
+    "restlessness",
+    "rapid heartbeat",
+    "difficulty concentrating",
+    "sleep problems"
+  ],
+  "Depression": [
+    "sadness",
+    "loss of interest",
+    "fatigue",
+    "sleep problems",
+    "difficulty concentrating"
+  ],
+  "ADHD": [
+    "difficulty concentrating",
+    "forgetfulness",
+    "restlessness",
+    "impulsivity"
+  ],
+  "OCD": [
+    "repetitive thoughts",
+    "repetitive behaviors",
+    "anxiety",
+    "distress"
+  ],
+  "Panic Disorder": [
+    "panic attacks",
+    "rapid heartbeat",
+    "shortness of breath",
+    "dizziness",
+    "fear"
+  ],
+  "Social Anxiety Disorder": [
+    "social anxiety",
+    "fear of judgment",
+    "avoidance",
+    "rapid heartbeat"
+  ],
+  "Pink Eye": [
+    "red eye",
+    "itchy eye",
+    "eye discharge",
+    "watery eyes",
+    "eye irritation"
+  ],
+  "Dry Eye": [
+    "eye pain",
+    "dry eyes",
+    "burning eyes",
+    "eye irritation",
+    "red eye"
+  ],
+  "Eye Strain": [
+    "eye pain",
+    "eye fatigue",
+    "blurred vision",
+    "headache",
+    "dry eyes"
+  ],
+  "Stye": [
+    "eyelid swelling",
+    "eyelid pain",
+    "red eyelid",
+    "tenderness"
+  ],
+  "Cataracts": [
+    "blurred vision",
+    "cloudy vision",
+    "light sensitivity",
+    "difficulty seeing at night"
+  ],
+  "Glaucoma": [
+    "eye pain",
+    "blurred vision",
+    "headache",
+    "red eye",
+    "vision problems"
+  ],
+  "Macular Degeneration": [
+    "blurred vision",
+    "vision loss",
+    "distorted vision"
+  ],
+  "Astigmatism": [
+    "blurred vision",
+    "eye strain",
+    "headache",
+    "difficulty seeing clearly"
+  ],
+  "Nearsightedness": [
+    "blurred distance vision",
+    "eye strain",
+    "headache"
+  ],
+  "Farsightedness": [
+    "blurred near vision",
+    "eye strain",
+    "headache"
+  ],
+  "Swimmer's Ear": [
+    "ear pain",
+    "ear tenderness",
+    "ear discharge",
+    "hearing difficulty"
+  ],
+  "Middle Ear Infection": [
+    "ear pain",
+    "fever",
+    "hearing difficulty",
+    "ear pressure"
+  ],
+  "Earwax Buildup": [
+    "ear pressure",
+    "hearing difficulty",
+    "ear discomfort",
+    "ringing in ear"
+  ],
+  "Tinnitus": [
+    "ringing in ear",
+    "buzzing in ear",
+    "hearing difficulty"
+  ],
+  "Tonsillitis": [
+    "sore throat",
+    "fever",
+    "swollen tonsils",
+    "difficulty swallowing",
+    "headache"
+  ],
+  "Laryngitis": [
+    "hoarse voice",
+    "sore throat",
+    "cough",
+    "difficulty speaking"
+  ],
+  "Tooth Decay": [
+    "tooth pain",
+    "tooth sensitivity",
+    "mouth pain",
+    "jaw pain"
+  ],
+  "Tooth Abscess": [
+    "tooth pain",
+    "gum swelling",
+    "fever",
+    "jaw pain",
+    "mouth swelling"
+  ],
+  "Mouth Ulcer": [
+    "mouth pain",
+    "mouth sore",
+    "pain with eating",
+    "mouth irritation"
+  ],
+  "Gingivitis": [
+    "gum pain",
+    "gum swelling",
+    "bleeding gums",
+    "bad breath"
+  ],
+  "Acne": [
+    "pimples",
+    "blackheads",
+    "whiteheads",
+    "skin inflammation"
+  ],
+  "Eczema": [
+    "itchy skin",
+    "dry skin",
+    "red skin",
+    "skin irritation",
+    "rash"
+  ],
+  "Psoriasis": [
+    "itchy skin",
+    "red skin",
+    "scaly skin",
+    "skin plaques"
+  ],
+  "Rosacea": [
+    "red skin",
+    "facial redness",
+    "skin irritation",
+    "bumps"
+  ],
+  "Hives": [
+    "itchy skin",
+    "raised rash",
+    "skin irritation",
+    "swelling"
+  ],
+  "Contact Dermatitis": [
+    "itchy skin",
+    "red skin",
+    "skin irritation",
+    "rash",
+    "swelling"
+  ],
+  "Athlete's Foot": [
+    "itchy feet",
+    "scaly skin",
+    "foot rash",
+    "burning skin"
+  ],
+  "Ringworm": [
+    "itchy skin",
+    "circular rash",
+    "red skin",
+    "scaly skin"
+  ],
+  "Warts": [
+    "skin growth",
+    "rough skin",
+    "skin bump"
+  ],
+  "Impetigo": [
+    "skin sores",
+    "blisters",
+    "skin crusting",
+    "itchy skin"
+  ],
+  "Shingles": [
+    "painful rash",
+    "skin sensitivity",
+    "blisters",
+    "burning pain",
+    "fever"
+  ],
+  "Sunburn": [
+    "red skin",
+    "skin pain",
+    "skin irritation",
+    "swelling"
+  ],
+  "Cellulitis": [
+    "red skin",
+    "swelling",
+    "skin pain",
+    "warm skin",
+    "fever"
+  ],
+  "Cold Sores": [
+    "mouth sores",
+    "lip blisters",
+    "tingling lips",
+    "lip pain"
+  ],
+  "Muscle Strain": [
+    "muscle pain",
+    "tenderness",
+    "swelling",
+    "limited movement"
+  ],
+  "Sprain": [
+    "joint pain",
+    "swelling",
+    "bruising",
+    "limited movement",
+    "tenderness"
+  ],
+  "Tendonitis": [
+    "joint pain",
+    "tenderness",
+    "swelling",
+    "pain with movement"
+  ],
+  "Bursitis": [
+    "joint pain",
+    "swelling",
+    "tenderness",
+    "pain with movement"
+  ],
+  "Osteoarthritis": [
+    "joint pain",
+    "stiffness",
+    "swelling",
+    "limited movement",
+    "tenderness"
+  ],
+  "Rheumatoid Arthritis": [
+    "joint pain",
+    "joint swelling",
+    "stiffness",
+    "fatigue"
+  ],
+  "Gout": [
+    "joint pain",
+    "joint swelling",
+    "red joint",
+    "tenderness"
+  ],
+  "Back Strain": [
+    "back pain",
+    "muscle pain",
+    "stiffness",
+    "limited movement"
+  ],
+  "Neck Strain": [
+    "neck pain",
+    "stiffness",
+    "headache",
+    "limited movement"
+  ],
+  "Carpal Tunnel Syndrome": [
+    "hand pain",
+    "hand numbness",
+    "tingling",
+    "weakness",
+    "wrist pain"
+  ],
+  "Plantar Fasciitis": [
+    "foot pain",
+    "heel pain",
+    "pain with walking",
+    "morning foot pain"
+  ],
+  "Shin Splints": [
+    "leg pain",
+    "shin pain",
+    "pain with exercise",
+    "tenderness"
+  ],
+  "Knee Injury": [
+    "knee pain",
+    "swelling",
+    "tenderness",
+    "limited movement",
+    "bruising"
+  ],
+  "Ankle Sprain": [
+    "ankle pain",
+    "swelling",
+    "bruising",
+    "tenderness",
+    "limited movement"
+  ],
+  "Rotator Cuff Injury": [
+    "shoulder pain",
+    "weakness",
+    "limited movement",
+    "tenderness"
+  ],
+  "Tennis Elbow": [
+    "elbow pain",
+    "tenderness",
+    "weakness",
+    "pain with movement"
+  ],
+  "Fracture": [
+    "bone pain",
+    "swelling",
+    "bruising",
+    "limited movement",
+    "tenderness"
+  ],
+  "Dislocation": [
+    "joint pain",
+    "swelling",
+    "deformity",
+    "limited movement"
+  ],
+  "High Blood Pressure": [
+    "headache",
+    "dizziness",
+    "vision problems",
+    "shortness of breath"
+  ],
+  "High Cholesterol": [
+    "usually no symptoms"
+  ],
+  "Coronary Artery Disease": [
+    "chest pain",
+    "shortness of breath",
+    "fatigue"
+  ],
+  "Arrhythmia": [
+    "irregular heartbeat",
+    "rapid heartbeat",
+    "dizziness",
+    "shortness of breath"
+  ],
+  "Heart Failure": [
+    "shortness of breath",
+    "fatigue",
+    "swelling",
+    "rapid heartbeat"
+  ],
+  "Anemia": [
+    "fatigue",
+    "weakness",
+    "dizziness",
+    "headache",
+    "shortness of breath"
+  ],
+  "Varicose Veins": [
+    "leg swelling",
+    "leg pain",
+    "heavy legs",
+    "visible veins"
+  ],
+  "Peripheral Artery Disease": [
+    "leg pain",
+    "leg cramps",
+    "numbness",
+    "cold feet"
+  ],
+  "Urinary Tract Infection": [
+    "painful urination",
+    "frequent urination",
+    "lower abdominal pain",
+    "urgency"
+  ],
+  "Kidney Stones": [
+    "side pain",
+    "back pain",
+    "painful urination",
+    "nausea",
+    "vomiting"
+  ],
+  "Kidney Infection": [
+    "fever",
+    "back pain",
+    "painful urination",
+    "nausea",
+    "chills"
+  ],
+  "Overactive Bladder": [
+    "frequent urination",
+    "urgency",
+    "nighttime urination"
+  ],
+  "Interstitial Cystitis": [
+    "bladder pain",
+    "pelvic pain",
+    "frequent urination",
+    "urgency"
+  ],
+  "Chronic Kidney Disease": [
+    "fatigue",
+    "swelling",
+    "nausea",
+    "changes in urination"
+  ],
+  "Type 1 Diabetes": [
+    "frequent urination",
+    "increased thirst",
+    "fatigue",
+    "weight loss"
+  ],
+  "Type 2 Diabetes": [
+    "frequent urination",
+    "increased thirst",
+    "fatigue",
+    "blurred vision"
+  ],
+  "Prediabetes": [
+    "usually no symptoms",
+    "fatigue",
+    "increased thirst"
+  ],
+  "Hypothyroidism": [
+    "fatigue",
+    "cold sensitivity",
+    "weight gain",
+    "dry skin",
+    "constipation"
+  ],
+  "Hyperthyroidism": [
+    "rapid heartbeat",
+    "weight loss",
+    "sweating",
+    "tremor",
+    "anxiety"
+  ],
+  "Iron Deficiency": [
+    "fatigue",
+    "weakness",
+    "dizziness",
+    "headache",
+    "difficulty concentrating"
+  ],
+  "Vitamin B12 Deficiency": [
+    "fatigue",
+    "weakness",
+    "numbness",
+    "tingling",
+    "difficulty concentrating"
+  ],
+  "Vitamin D Deficiency": [
+    "bone pain",
+    "muscle weakness",
+    "fatigue"
+  ],
+  "Osteoporosis": [
+    "usually no symptoms",
+    "back pain",
+    "fractures",
+    "loss of height"
+  ],
+  "Metabolic Syndrome": [
+    "high blood pressure",
+    "high blood sugar",
+    "high cholesterol",
+    "abdominal obesity"
+  ],
+  "Food Allergy": [
+    "hives",
+    "itchy skin",
+    "swelling",
+    "stomach pain",
+    "vomiting"
+  ],
+  "Latex Allergy": [
+    "itchy skin",
+    "hives",
+    "rash",
+    "swelling"
+  ],
+  "Lupus": [
+    "fatigue",
+    "joint pain",
+    "rash",
+    "fever",
+    "swelling"
+  ],
+  "Sjögren Syndrome": [
+    "dry eyes",
+    "dry mouth",
+    "fatigue",
+    "joint pain"
+  ],
+  "Psoriatic Arthritis": [
+    "joint pain",
+    "joint swelling",
+    "stiffness",
+    "skin plaques"
+  ],
+  "Lyme Disease": [
+    "fever",
+    "fatigue",
+    "headache",
+    "joint pain",
+    "rash"
+  ],
+  "Mononucleosis": [
+    "fatigue",
+    "sore throat",
+    "fever",
+    "swollen lymph nodes",
+    "headache"
+  ],
+  "Chickenpox": [
+    "fever",
+    "itchy rash",
+    "fatigue",
+    "headache",
+    "skin rash"
+  ],
+  "Norovirus Infection": [
+    "nausea",
+    "vomiting",
+    "diarrhea",
+    "stomach pain",
+    "fever"
+  ],
+  "Fungal Infection": [
+    "itchy skin",
+    "red skin",
+    "rash",
+    "scaly skin"
+  ],
+  "Malaria": [
+    "fever",
+    "chills",
+    "headache",
+    "fatigue",
+    "muscle aches"
+  ],
+  "Hepatitis": [
+    "fatigue",
+    "nausea",
+    "abdominal pain",
+    "loss of appetite",
+    "jaundice"
+  ],
+  "Dehydration": [
+    "thirst",
+    "fatigue",
+    "dizziness",
+    "headache",
+    "dry mouth"
+  ],
+  "Heat Exhaustion": [
+    "fatigue",
+    "dizziness",
+    "headache",
+    "nausea",
+    "heavy sweating",
+    "weakness"
+  ],
+  "Motion Sickness": [
+    "nausea",
+    "vomiting",
+    "dizziness",
+    "headache",
+    "sweating"
+  ],
+  "Heat Rash": [
+    "itchy skin",
+    "red rash",
+    "skin irritation",
+    "small bumps"
+  ],
+  "Frostbite": [
+    "numbness",
+    "skin pain",
+    "pale skin",
+    "swelling"
+  ],
+  "Fever": [
+    "fever",
+    "chills",
+    "fatigue",
+    "weakness",
+    "sweating"
+  ],
+  "Dizziness": [
+    "dizziness",
+    "lightheadedness",
+    "weakness",
+    "nausea"
+  ],
+  "Nausea": [
+    "nausea",
+    "stomach discomfort",
+    "loss of appetite"
+  ],
+  "Fatigue": [
+    "fatigue",
+    "weakness",
+    "difficulty concentrating",
+    "sleepiness"
+  ],
+  "Headache": [
+    "headache",
+    "pressure around head",
+    "neck pain"
+  ],
+  "Sore Throat": [
+    "sore throat",
+    "difficulty swallowing",
+    "throat irritation"
+  ],
+  "Cough": [
+    "cough",
+    "throat irritation",
+    "chest discomfort"
+  ],
+  "Abdominal Pain": [
+    "abdominal pain",
+    "stomach pain",
+    "cramps",
+    "bloating"
+  ]
+}
